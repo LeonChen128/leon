@@ -1,14 +1,10 @@
 require('./bootstrap');
 
+import Vue from 'vue';
 
-console.log(123)
-
-function pow(num) {
-    return num * num
-}
-
-const hello = str => console.log('hello ' + str)
-
-hello('Leon')
-
-console.log(111)
+new Vue({
+    el: '#app',
+    data: {
+        message: 'Hello, Vue.js!',
+    },
+});

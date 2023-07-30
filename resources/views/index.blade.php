@@ -8,8 +8,9 @@
 
     <h1>Hello World!</h1>
 
-    <div class="test">
+    <div id="app" class="test">
         <div>123</div>
+        <div>@{{ message }}</div>
     </div>
 
     <script src="{{ asset('js/app.js') }}"></script>
