@@ -10,3 +10,5 @@ function pow(num) {
 const hello = str => console.log('hello ' + str)
 
 hello('Leon')
+
+console.log(111)
