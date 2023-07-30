@@ -1,0 +1,8 @@
+.test {
+  padding: 20px;
+  background: red;
+}
+.test > div {
+  background: green;
+}
+
