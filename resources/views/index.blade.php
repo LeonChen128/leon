@@ -9,8 +9,8 @@
     <h1>Hello World!</h1>
 
     <div id="app" class="test">
-        <div>123</div>
-        <div>@{{ message }}</div>
+        <div :class="color">123</div>
+        <div v-cloak @click="change" :class="color">@{{ message }}</div>
     </div>
 
     <script src="{{ asset('js/app.js') }}"></script>

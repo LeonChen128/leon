@@ -1,8 +1,16 @@
+[v-cloak] {
+  display: none;
+}
+
 .test {
   padding: 20px;
   background: red;
 
-  > div {
+  > .gray {
     background: gray;
+  }
+
+  > .green {
+    background: green;
   }
 }

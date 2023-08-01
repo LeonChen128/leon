@@ -1,7 +1,1 @@
-.test {
-  padding: 20px;
-  background: red;
-}
-.test > div {
-  background: gray;
-}
+[v-cloak]{display:none}.test{background:red;padding:20px}.test>.gray{background:gray}.test>.green{background:green}
